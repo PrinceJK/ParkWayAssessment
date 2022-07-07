@@ -3,7 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.32602.291
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TransactionFeeCalculator", "TransactionFeeCalculator4\TransactionFeeCalculator.csproj", "{1A50B771-49BE-4DAE-96EC-B4CBA18B6583}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FileReader", "FileReader\FileReader.csproj", "{66C8A88B-551F-4A24-BFFA-ACD57CA2B7C6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TransactionSurchargeApp", "TransactionSurchargeApp\TransactionSurchargeApp.csproj", "{0DD59A33-BC3C-4AFC-AC17-A32B098D80F6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TransactionFeeCalculator", "TransactionFeeCalculator\TransactionFeeCalculator.csproj", "{C277058C-7103-4F51-AA52-830F7233D059}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,10 +15,18 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{1A50B771-49BE-4DAE-96EC-B4CBA18B6583}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{1A50B771-49BE-4DAE-96EC-B4CBA18B6583}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{1A50B771-49BE-4DAE-96EC-B4CBA18B6583}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{1A50B771-49BE-4DAE-96EC-B4CBA18B6583}.Release|Any CPU.Build.0 = Release|Any CPU
+		{66C8A88B-551F-4A24-BFFA-ACD57CA2B7C6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{66C8A88B-551F-4A24-BFFA-ACD57CA2B7C6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{66C8A88B-551F-4A24-BFFA-ACD57CA2B7C6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{66C8A88B-551F-4A24-BFFA-ACD57CA2B7C6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0DD59A33-BC3C-4AFC-AC17-A32B098D80F6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0DD59A33-BC3C-4AFC-AC17-A32B098D80F6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0DD59A33-BC3C-4AFC-AC17-A32B098D80F6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0DD59A33-BC3C-4AFC-AC17-A32B098D80F6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C277058C-7103-4F51-AA52-830F7233D059}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C277058C-7103-4F51-AA52-830F7233D059}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C277058C-7103-4F51-AA52-830F7233D059}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C277058C-7103-4F51-AA52-830F7233D059}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
