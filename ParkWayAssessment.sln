@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.32602.291
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TransactionApp", "TransactionApp\TransactionApp.csproj", "{5982ADB3-6D12-4E9B-B8A1-181197DB1A52}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FileReader", "FileReader\FileReader.csproj", "{B2CE8953-49D0-4A7F-B4BE-9AD312D2149D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TransactionFeeCalculator", "TransactionFeeCalculator\TransactionFeeCalculator.csproj", "{5EE5617E-3C1A-43C0-A160-2F4C12AFE7C4}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,10 +13,14 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{5982ADB3-6D12-4E9B-B8A1-181197DB1A52}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{5982ADB3-6D12-4E9B-B8A1-181197DB1A52}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{5982ADB3-6D12-4E9B-B8A1-181197DB1A52}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{5982ADB3-6D12-4E9B-B8A1-181197DB1A52}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B2CE8953-49D0-4A7F-B4BE-9AD312D2149D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B2CE8953-49D0-4A7F-B4BE-9AD312D2149D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B2CE8953-49D0-4A7F-B4BE-9AD312D2149D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B2CE8953-49D0-4A7F-B4BE-9AD312D2149D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5EE5617E-3C1A-43C0-A160-2F4C12AFE7C4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5EE5617E-3C1A-43C0-A160-2F4C12AFE7C4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5EE5617E-3C1A-43C0-A160-2F4C12AFE7C4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5EE5617E-3C1A-43C0-A160-2F4C12AFE7C4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
