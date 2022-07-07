@@ -9,10 +9,4 @@
     <ProjectReference Include="..\FileReader\FileReader.csproj" />
   </ItemGroup>
 
-  <ItemGroup>
-    <None Update="StaticFiles\Json\fees.config.json">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-  </ItemGroup>
-
 </Project>

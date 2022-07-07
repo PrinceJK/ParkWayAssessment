@@ -1,7 +1,6 @@
-﻿using FileReader;
-using System;
+﻿using System;
 
-namespace TransactionFeeCalculator
+namespace TransactionSurchargeApp
 {
     class Program
     {
@@ -11,7 +10,7 @@ namespace TransactionFeeCalculator
             var input = Console.ReadLine();
             if (decimal.TryParse(input, out var amount))
             {
-                var result = CalculateTransaction.CalculateCharge(amount);
+                var result = CalculateSurcharge.Calculate(amount);
                 if (result == 0)
                 {
                     Console.WriteLine("Sorry, you are not allowed to make transactions above 999999999 yet");
@@ -22,7 +21,7 @@ namespace TransactionFeeCalculator
                 }
                 else
                 {
-                    Console.WriteLine($"Your fee amount is {result}");
+                    Console.WriteLine($"Your fee debit is: {result}");
                 }
 
             }
@@ -30,8 +29,6 @@ namespace TransactionFeeCalculator
             {
                 Console.WriteLine("Invalid input");
             }
-
-
         }
     }
 }

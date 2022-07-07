@@ -1,0 +1,6 @@
+﻿DISCUSSION: In the case of the third amount (50030), did the debit amount correspond to the expected amount? 
+
+* If Yes, How? - Explain
+* If No, Why? - Is there anything that can be done to remedy the situation.
+
+Yes the debit amount corresponds to the expected amount because it is was in the frame of 50001 to 999999999 so, the charge is 50 and the amount to be debited is 50080.
